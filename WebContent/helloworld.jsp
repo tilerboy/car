@@ -2,7 +2,7 @@
 <%@ page info="a hello world example" %>
 <html>
 	<head>
-		<title>理解JSP的原理</title>
+		<title>理解JSP的原理-testaser</title>
 	</head>
 	<body>
 		<center>
