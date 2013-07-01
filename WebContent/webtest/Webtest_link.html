@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>css伪类pseudo-class</title>
+<style type=text/css>
+a:link {
+	color: red
+} /*未被访问过的链接  红色*/
+a:visited {
+	color: blue
+} /*已被访问过的链接  绿色*/
+a:hover {
+	color: yellow
+} /*鼠标悬浮在上的链接  黄色*/
+a:active {
+	color: black
+} /*鼠标点中激活的链接  黑色*/
+.dl {
+	border: 5px solid gray
+}
+</style>
+</head>
+<body>
+	<a href=http://www.sina.com target="_black">网页教程与代码的中文站点</a>
+	<br>
+	<br>
+	<a href=http://www.chinaren.com target="_black">网页教程与代码的中文站点</a>
+	<br>
+	<br>
+	<div class=dl>the attribute of the div's frame:the border-width
+		is 5px;the border-style is straight line;the border-color is gray</div>
+
+</body>
+</html>

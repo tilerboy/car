@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>judge leap year</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var name = prompt("请输入年份", "2008");
+		if (name) {
+			if (name % 4 == 0 && name % 100 != 0 || name % 400 == 0) {
+				document.write(name + "年是闰年")
+			} else {
+
+				document.write(name + "年不是闰年")
+			}
+		}
+	</script>
+</body>
+</html>

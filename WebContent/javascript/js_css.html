@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="UTF-8">
+     <title>click to change the font size</title>
+     <style type="text/css">
+     .bfont{font-size: 20px}
+     .nfont{font-size: 16px}
+     .sfont{font-size: 12px}
+     .cdiv {font-size: 12px}
+     .cdiv span {cursor:hand;text-decoration:underline;color:blue;}
+     </style>
+  </head>
+  <body id=pgcontent class=nfont>
+   <div class=cdiv>
+   <span onclick="pgcontent.className='bfont'">大字体</span>
+   <span onclick="pgcontent.className='nfont'">中字体</span>
+   <span onclick="pgcontent.className='sfont'">小字体</span>
+   </div>
+   <p>点击上面的大中小字体，可以改变字体的大小</p>
+  </body>
+</html>

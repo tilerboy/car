@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>use css from another file</title>
+
+<style>
+  @import"../css/text.css"
+</style>
+<style type=text/css>
+.center {
+	text-align: center;
+}
+
+p.center {
+	text-align: left;
+}
+
+p.right {
+	text-align: right;
+}
+ em {color:red}
+</style>
+</head>
+<body>
+	<p class=center>这个段落居中</p>
+	<p class=center>这个段落居zuo</p>
+	<p class=right>这个段落居you</p>
+	<p>这个段落中用em强调的字是<em style=color:blue>红色</em>的</p>
+	<h1>这个标题中用em强调的字<em>不是红色</em>的</h1>
+	<h1 class=center>这个标题居中</h1>
+
+
+	<h1 class=mylayout>这个标题使用了style</h1>
+	<h1>这个标题没有使用了style</h1>
+</body>
+</html>
